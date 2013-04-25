@@ -15,16 +15,16 @@ mysql_select_db($dbname) or die (mysql_error());
 if (isset($_POST['trader'])) {
 	
 	    $totalFields = 0;
-		$pattern = "#\d+#";
+	    $pattern = "#\d+#";
 		
-		if (isset($_POST['item'])) 											{$item = $_POST['item']; $totalFields++; }
-	    if (isset($_POST['sell']) 	&& preg_match($pattern,$_POST['sell'])) {$sell = $_POST['sell']; $totalFields++; }
-	    if (isset($_POST['buy']) 	&& preg_match($pattern,$_POST['buy']))	{$buy = $_POST['buy']; $totalFields++; }
-	    if (isset($_POST['metal'])) 										{$metal = $_POST['metal']; $totalFields++; }
-	    if (isset($_POST['stock']) 	&& preg_match($pattern,$_POST['stock'])){$stock = $_POST['stock']; $totalFields++; }
-	    if (isset($_POST['type'])) 											{$type = $_POST['type']; $totalFields++; }
-	    if (isset($_POST['trader'])) 										{$trader = $_POST['trader']; $totalFields++; }
-	    if (isset($_POST['afile'])) 										{$afile = $_POST['afile']; $totalFields++; }
+	    if (isset($_POST['item'])) {$item = $_POST['item']; $totalFields++; }
+	    if (isset($_POST['sell']) && preg_match($pattern,$_POST['sell'])) {$sell = $_POST['sell']; $totalFields++; }
+	    if (isset($_POST['buy']) && preg_match($pattern,$_POST['buy']))	{$buy = $_POST['buy']; $totalFields++; }
+	    if (isset($_POST['metal']))	{$metal = $_POST['metal']; $totalFields++; }
+	    if (isset($_POST['stock']) && preg_match($pattern,$_POST['stock'])){$stock = $_POST['stock']; $totalFields++; }
+	    if (isset($_POST['type'])) {$type = $_POST['type']; $totalFields++; }
+	    if (isset($_POST['trader'])) {$trader = $_POST['trader']; $totalFields++; }
+	    if (isset($_POST['afile'])) {$afile = $_POST['afile']; $totalFields++; }
 
 	    $item = mysql_real_escape_string(trim($item, " \t"));
 	    $sell = mysql_real_escape_string($sell);
