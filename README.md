@@ -1,4 +1,4 @@
-epoch
+Epoch
 =====
 
-Scripts for Dayz Epcoh
+Scripts for Dayz Epoch
