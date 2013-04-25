@@ -4,8 +4,8 @@ ini_set('display_errors', 1);
 
 $dbhost   		= "localhost"; 
 $dbname				= "dayz_epoch";
-$dbuser				= "dayzepoch";
-$dbpass				= "dayzepoch";
+$dbuser				= "USER";
+$dbpass				= "PASS";
 $dbport				= 3306;
 $serverinstance		= 11;
 
