@@ -1,0 +1,9 @@
+<Files "download.php">
+	order allow,deny
+    allow from all
+</Files>
+
+<Files "upload.php">
+	order allow,deny
+    allow from all
+</Files>

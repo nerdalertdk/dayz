@@ -1,0 +1,11 @@
+/* Inventory Editor CSS file by Crosire */
+
+#invedit-table {
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.selectedItem {
+	border: 1px solid red;
+}

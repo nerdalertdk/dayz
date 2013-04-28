@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-16"?>
+<configuration>
+    <section id="General">
+        <setting id="Mod">@DayZ_Epoch;@DayZ_Epoch_Server;</setting>
+        <setting id="Welcome">Welcome back, {0}!</setting>
+        <setting id="World">chernarus</setting>
+    </section>
+    <section id="Backup">
+        <setting id="Enabled">False</setting>
+        <setting id="Interval">60</setting>
+        <setting id="Path">C:\</setting>
+    </section>
+    <section id="Rcon">
+        <setting id="Host">127.0.0.1</setting>
+        <setting id="Port">PORT</setting>
+        <setting id="Pass">PASSOWRD</setting>
+    </section>
+    <section id="Whitelist">
+        <setting id="Enabled">False</setting>
+        <setting id="Host" />
+        <setting id="Port">3306</setting>
+        <setting id="User" />
+        <setting id="Pass" />
+        <setting id="Name" />
+        <setting id="Message">You are not whitelisted, {0}!</setting>
+    </section>
+</configuration>

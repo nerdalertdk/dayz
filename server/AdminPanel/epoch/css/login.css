@@ -1,0 +1,93 @@
+/* Login Page CSS file by katzmile and Crosire*/
+
+#login-bg {
+	background: url(../images/forms/login_bg.jpg) no-repeat top center;
+}
+
+#login-box {
+	background: url(../images/forms/login_box_bg.png) no-repeat;
+	font-size: 12px;
+	height: 212px;
+	line-height: 12px;
+	padding-top: 60px;
+	position: relative;
+	width: 508px;
+	margin: 0px auto 0 auto;
+}
+
+#login-inner {
+	color: #161616;
+	font-family: Tahoma;
+	font-size: 13px;
+	line-height: 12px;
+	margin: 0 auto;
+	width: 310px;
+}
+
+#login-inner label {
+	color: #161616;
+	cursor: pointer;
+	font-family: Tahoma;
+	font-weight: bold;
+	line-height: 12px;
+	padding-left: 10px;
+}
+
+#login-inner th {
+	padding: 0 0 6px 0;
+	text-align: left;
+	width: 95px;
+}
+
+#login-inner td {
+	padding: 0 0 6px 0;
+}
+
+#login-check {
+	width: 13px;
+	height: 13px;
+	margin: 5px 0; 
+}
+
+#login-logo {
+	background: url(../images/forms/login_logo.png) no-repeat center center;
+	float: center;
+	height: 128px;
+	margin-top: 145px;
+}
+
+.login-inp {
+	background: url(../images/forms/login_inp.gif) no-repeat;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	height: 28px;
+	padding: 6px 6px 0 10px;
+	width: 204px;
+}
+
+.login-submit {
+	background: url(../images/forms/submit.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	display: block;
+	height: 29px;
+	text-indent: -3000px;
+	width: 73px;
+}
+
+.login-submit:hover {
+	background: url(../images/forms/submit.gif) no-repeat 0 -29px;
+}
+
+.login-select {
+	background: #383838;
+	border: 1px solid #424242;
+	color: #fff;
+	width: 220px;
+	height: 28px;
+	padding: 3px;
+	line-height: 14px;
+	margin-right: 6px;
+	font-size: 16px;
+}

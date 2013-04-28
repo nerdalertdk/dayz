@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quicklinks>
+	<Configuration>
+		<Name>Control</Name>
+		<Icon>cog.png</Icon>
+		<Link>index.php?view=control</Link>
+	</Configuration>
+	<Search>
+		<Name>Search</Name>
+		<Icon>search.png</Icon>
+		<Link>index.php?view=search</Link>
+	</Search>
+	<Admin>
+		<Name>Users</Name>
+		<Icon>security.png</Icon>
+		<Link>index.php?view=admin</Link>
+	</Admin>
+	<Map>
+		<Name>Map</Name>
+		<Icon>google_map.png</Icon>
+		<Link>index.php?view=map</Link>
+	</Map>
+	<List>
+		<Name>Entities</Name>
+		<Icon>bookmark.png</Icon>
+		<Link>index.php?view=table</Link>
+	</List>
+</quicklinks>
