@@ -39,3 +39,20 @@ INSERT INTO `users` (`id`, `login`, `password`, `salt`, `permissions`, `lastlogi
 
 ALTER TABLE `character_data`
     ADD `lastactiv` timestamp on update current_timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP;
+-- 
+-- Structure for table `whitelist`
+-- 
+
+DROP TABLE IF EXISTS `whitelist`;
+CREATE TABLE IF NOT EXISTS `whitelist` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `guid` varchar(32) NOT NULL,
+  `comments` varchar(500) DEFAULT NULL,
+  `name` varchar(255) NOT NULL,
+  `is_whitelisted` int(2) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `guid` (`guid`),
+  UNIQUE KEY `name` (`name`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+
