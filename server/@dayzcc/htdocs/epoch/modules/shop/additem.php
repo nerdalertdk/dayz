@@ -2,16 +2,6 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-//$dbhost 			= "localhost"; 
-//$dbname				= "dayz_epoch";
-//$dbuser				= "dayzepoch";
-//$dbpass				= "dayzepoch";
-//$dbport				= 3306;
-//$serverinstance		= 11;
-
-//mysql_connect($dbhost.':'.$dbport, $dbuser, $dbpass) or die (mysql_error());
-//mysql_select_db($dbname) or die (mysql_error());
-
 if (isset($_POST['trader'])) {
 	
 	    $totalFields = 0;
