@@ -95,6 +95,13 @@
 										<li><a href="index.php?view=stats" class="item">Stats</a></li>
 									</ul>
 								</li>
+							<?php } if (strcontains($_SESSION['user_permissions'], "tools")) { ?>
+								<li class="root"><a href="index.php?view=shop" class="item down">Shop</a>
+									<ul class="menu">
+										<li><a href="index.php?view=shop&show=additem" class="item">Add item</a></li>
+										<li><a href="index.php?view=shop&show=edititem" class="item">Edit item</a></li>
+									</ul>
+								</li>
 							<?php } ?>
 						</ul>
 					</div>
